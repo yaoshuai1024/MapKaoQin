@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313F9D931DE472F6005F2B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F9D921DE472F6005F2B42 /* main.m */; };
+		313F9D961DE472F6005F2B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F9D951DE472F6005F2B42 /* AppDelegate.m */; };
+		313F9D991DE472F6005F2B42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F9D981DE472F6005F2B42 /* ViewController.m */; };
+		313F9D9C1DE472F6005F2B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313F9D9A1DE472F6005F2B42 /* Main.storyboard */; };
+		313F9D9E1DE472F6005F2B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313F9D9D1DE472F6005F2B42 /* Assets.xcassets */; };
+		313F9DA11DE472F6005F2B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313F9D9F1DE472F6005F2B42 /* LaunchScreen.storyboard */; };
+		FF239B8F04A8E2C35176D20A /* libPods-MapKaoQin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7C5AE4368CBC4768D21A6C /* libPods-MapKaoQin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		313F9D8E1DE472F6005F2B42 /* MapKaoQin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKaoQin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		313F9D921DE472F6005F2B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		313F9D941DE472F6005F2B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		313F9D951DE472F6005F2B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		313F9D971DE472F6005F2B42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		313F9D981DE472F6005F2B42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		313F9D9B1DE472F6005F2B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		313F9D9D1DE472F6005F2B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		313F9DA01DE472F6005F2B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		313F9DA21DE472F6005F2B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A04EF9B3F4C2E88AD07ED8C /* Pods-MapKaoQin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapKaoQin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapKaoQin/Pods-MapKaoQin.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8A84D47518148CCC097184 /* Pods-MapKaoQin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapKaoQin.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapKaoQin/Pods-MapKaoQin.release.xcconfig"; sourceTree = "<group>"; };
+		CA7C5AE4368CBC4768D21A6C /* libPods-MapKaoQin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapKaoQin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313F9D8B1DE472F6005F2B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF239B8F04A8E2C35176D20A /* libPods-MapKaoQin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313F9D851DE472F6005F2B42 = {
+			isa = PBXGroup;
+			children = (
+				313F9D901DE472F6005F2B42 /* MapKaoQin */,
+				313F9D8F1DE472F6005F2B42 /* Products */,
+				C8F8EC99694E961B3109BBB0 /* Pods */,
+				CA5A7E09B1426F1EC06CCCA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		313F9D8F1DE472F6005F2B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313F9D8E1DE472F6005F2B42 /* MapKaoQin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		313F9D901DE472F6005F2B42 /* MapKaoQin */ = {
+			isa = PBXGroup;
+			children = (
+				313F9D941DE472F6005F2B42 /* AppDelegate.h */,
+				313F9D951DE472F6005F2B42 /* AppDelegate.m */,
+				313F9D971DE472F6005F2B42 /* ViewController.h */,
+				313F9D981DE472F6005F2B42 /* ViewController.m */,
+				313F9D9A1DE472F6005F2B42 /* Main.storyboard */,
+				313F9D9D1DE472F6005F2B42 /* Assets.xcassets */,
+				313F9D9F1DE472F6005F2B42 /* LaunchScreen.storyboard */,
+				313F9DA21DE472F6005F2B42 /* Info.plist */,
+				313F9D911DE472F6005F2B42 /* Supporting Files */,
+			);
+			path = MapKaoQin;
+			sourceTree = "<group>";
+		};
+		313F9D911DE472F6005F2B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				313F9D921DE472F6005F2B42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8F8EC99694E961B3109BBB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A04EF9B3F4C2E88AD07ED8C /* Pods-MapKaoQin.debug.xcconfig */,
+				8C8A84D47518148CCC097184 /* Pods-MapKaoQin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA5A7E09B1426F1EC06CCCA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C5AE4368CBC4768D21A6C /* libPods-MapKaoQin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313F9D8D1DE472F6005F2B42 /* MapKaoQin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313F9DA51DE472F6005F2B42 /* Build configuration list for PBXNativeTarget "MapKaoQin" */;
+			buildPhases = (
+				2398D1F9FCC6C3609AAD61EA /* [CP] Check Pods Manifest.lock */,
+				313F9D8A1DE472F6005F2B42 /* Sources */,
+				313F9D8B1DE472F6005F2B42 /* Frameworks */,
+				313F9D8C1DE472F6005F2B42 /* Resources */,
+				F5A36CAB5D035AF21C232160 /* [CP] Embed Pods Frameworks */,
+				EAFD52BFE9AB45A7EA41A95F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapKaoQin;
+			productName = MapKaoQin;
+			productReference = 313F9D8E1DE472F6005F2B42 /* MapKaoQin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		313F9D861DE472F6005F2B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yaoshuai;
+				TargetAttributes = {
+					313F9D8D1DE472F6005F2B42 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VCPZ2HFR86;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 313F9D891DE472F6005F2B42 /* Build configuration list for PBXProject "MapKaoQin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 313F9D851DE472F6005F2B42;
+			productRefGroup = 313F9D8F1DE472F6005F2B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313F9D8D1DE472F6005F2B42 /* MapKaoQin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		313F9D8C1DE472F6005F2B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313F9DA11DE472F6005F2B42 /* LaunchScreen.storyboard in Resources */,
+				313F9D9E1DE472F6005F2B42 /* Assets.xcassets in Resources */,
+				313F9D9C1DE472F6005F2B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2398D1F9FCC6C3609AAD61EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFD52BFE9AB45A7EA41A95F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapKaoQin/Pods-MapKaoQin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A36CAB5D035AF21C232160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapKaoQin/Pods-MapKaoQin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313F9D8A1DE472F6005F2B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313F9D991DE472F6005F2B42 /* ViewController.m in Sources */,
+				313F9D961DE472F6005F2B42 /* AppDelegate.m in Sources */,
+				313F9D931DE472F6005F2B42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		313F9D9A1DE472F6005F2B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313F9D9B1DE472F6005F2B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		313F9D9F1DE472F6005F2B42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313F9DA01DE472F6005F2B42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		313F9DA31DE472F6005F2B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		313F9DA41DE472F6005F2B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		313F9DA61DE472F6005F2B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A04EF9B3F4C2E88AD07ED8C /* Pods-MapKaoQin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VCPZ2HFR86;
+				INFOPLIST_FILE = MapKaoQin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yaoshuai.MapKaoQin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		313F9DA71DE472F6005F2B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8A84D47518148CCC097184 /* Pods-MapKaoQin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VCPZ2HFR86;
+				INFOPLIST_FILE = MapKaoQin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yaoshuai.MapKaoQin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313F9D891DE472F6005F2B42 /* Build configuration list for PBXProject "MapKaoQin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313F9DA31DE472F6005F2B42 /* Debug */,
+				313F9DA41DE472F6005F2B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313F9DA51DE472F6005F2B42 /* Build configuration list for PBXNativeTarget "MapKaoQin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313F9DA61DE472F6005F2B42 /* Debug */,
+				313F9DA71DE472F6005F2B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 313F9D861DE472F6005F2B42 /* Project object */;
+}

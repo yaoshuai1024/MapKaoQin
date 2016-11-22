@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y4y-MQ-caX" customClass="MAMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="RwQ-I5-7xB"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的坐标" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBQ-ng-6JG">
+                                <rect key="frame" x="20" y="420" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="与目的地的距离" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CX-bs-OoP">
+                                <rect key="frame" x="20" y="461" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否可打卡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sD-Ng-TI2">
+                                <rect key="frame" x="20" y="502" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3sD-Ng-TI2" firstAttribute="top" secondItem="0CX-bs-OoP" secondAttribute="bottom" constant="20" id="3sO-LU-0T9"/>
+                            <constraint firstAttribute="trailing" secondItem="3sD-Ng-TI2" secondAttribute="trailing" constant="20" id="8xz-g6-TPI"/>
+                            <constraint firstItem="eBQ-ng-6JG" firstAttribute="top" secondItem="Y4y-MQ-caX" secondAttribute="bottom" constant="20" id="Elc-GI-IX2"/>
+                            <constraint firstAttribute="trailing" secondItem="eBQ-ng-6JG" secondAttribute="trailing" constant="20" id="GnK-kG-7rW"/>
+                            <constraint firstItem="0CX-bs-OoP" firstAttribute="top" secondItem="eBQ-ng-6JG" secondAttribute="bottom" constant="20" id="HFV-Yb-FvY"/>
+                            <constraint firstItem="3sD-Ng-TI2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="HhR-cQ-uIh"/>
+                            <constraint firstItem="Y4y-MQ-caX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HkD-t5-l3W"/>
+                            <constraint firstItem="Y4y-MQ-caX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LJb-90-eck"/>
+                            <constraint firstAttribute="trailing" secondItem="0CX-bs-OoP" secondAttribute="trailing" constant="20" id="UIo-Zq-TSr"/>
+                            <constraint firstItem="eBQ-ng-6JG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="gEw-9F-axd"/>
+                            <constraint firstItem="0CX-bs-OoP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="yqg-ji-As2"/>
+                            <constraint firstAttribute="trailing" secondItem="Y4y-MQ-caX" secondAttribute="trailing" id="zcE-Vs-u8Y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coordinateLabel" destination="eBQ-ng-6JG" id="mzi-E8-LTx"/>
+                        <outlet property="distanceLabel" destination="0CX-bs-OoP" id="pYS-lh-3gc"/>
+                        <outlet property="mapV" destination="Y4y-MQ-caX" id="4ni-eC-RMU"/>
+                        <outlet property="stateLabel" destination="3sD-Ng-TI2" id="t4K-db-F0v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
